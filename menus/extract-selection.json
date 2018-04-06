@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Extract Selection",
+        "command": "extract-selection:extract-selection"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Extract Selection",
+          "submenu": [
+            {
+              "label": "Extract Selection",
+              "command": "extract-selection:extract-selection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

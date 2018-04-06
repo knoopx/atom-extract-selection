@@ -1,0 +1,16 @@
+{
+  "name": "extract-selection",
+  "main": "./lib/extract-selection",
+  "version": "0.1.0",
+  "description": "Extracts current selection into a new buffer",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "extract-selection:extract-selection"
+  },
+  "repository": "https://github.com/knoopx/atom-extract-selection",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
